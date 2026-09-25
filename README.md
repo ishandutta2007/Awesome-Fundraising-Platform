@@ -56,43 +56,43 @@ Below is a detailed, structured comparison of leading enterprise and commercial 
 
 Self-hosted open-source software allows non-profit organizations and developers to retain full data ownership, customize donor checkout flows, and avoid ongoing platform commissions. 
 
-Below are top open-source fundraising, donation, and CRM repositories **sorted descending by GitHub star count**:
+Below are top open-source fundraising, donation, and CRM repositories **sorted descending by GitHub Stars_Count**:
 
 - **[Odoo](https://github.com/odoo/odoo)** — Enterprise Resource Planning (ERP) suite with robust community modules for donation tracking, donor management, and campaign accounting.  
-  [![GitHub Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)
 
 - **[ERPNext / Frappe Framework](https://github.com/frappe/erpnext)** — Comprehensive open-source ERP system featuring dedicated nonprofit management modules, membership tracking, and donation receipts.  
-  [![GitHub Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
 
 - **[BTCPay Server](https://github.com/btcpayserver/btcpayserver)** — Self-hosted, open-source cryptocurrency payment processor for accepting Bitcoin and crypto donations directly without third-party fees.  
-  [![GitHub Stars](https://img.shields.io/github/stars/btcpayserver/btcpayserver?style=social&color=white)](https://github.com/btcpayserver/btcpayserver/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/btcpayserver/btcpayserver?style=social&color=white)](https://github.com/btcpayserver/btcpayserver/stargazers)
 
 - **[Apache Fineract](https://github.com/apache/fineract)** — Open-source financial services platform and core banking engine suitable for micro-finance, grant disbursement, and community loan pools.  
-  [![GitHub Stars](https://img.shields.io/github/stars/apache/fineract?style=social&color=white)](https://github.com/apache/fineract/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/apache/fineract?style=social&color=white)](https://github.com/apache/fineract/stargazers)
 
 - **[Open Collective Frontend](https://github.com/opencollective/opencollective-frontend)** — Transparent open-source platform designed for open initiatives, software collectives, and fiscal sponsorship groups to raise and disburse funds.  
-  [![GitHub Stars](https://img.shields.io/github/stars/opencollective/opencollective-frontend?style=social&color=white)](https://github.com/opencollective/opencollective-frontend/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/opencollective/opencollective-frontend?style=social&color=white)](https://github.com/opencollective/opencollective-frontend/stargazers)
 
 - **[CiviCRM Core](https://github.com/civicrm/civicrm-core)** — The premiere open-source CRM specifically engineered for nonprofits, civic organizations, and advocacy groups with comprehensive contribution tracking.  
-  [![GitHub Stars](https://img.shields.io/github/stars/civicrm/civicrm-core?style=social&color=white)](https://github.com/civicrm/civicrm-core/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/civicrm/civicrm-core?style=social&color=white)](https://github.com/civicrm/civicrm-core/stargazers)
 
 - **[Open Collective API](https://github.com/opencollective/opencollective-api)** — GraphQL backend API engine supporting Open Collective's fundraising and fiscal host transparent ledger.  
-  [![GitHub Stars](https://img.shields.io/github/stars/opencollective/opencollective-api?style=social&color=white)](https://github.com/opencollective/opencollective-api/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/opencollective/opencollective-api?style=social&color=white)](https://github.com/opencollective/opencollective-api/stargazers)
 
 - **[Giveth dApp](https://github.com/giveth/giveth-dapp)** — Web3 open-source donation platform enabling zero-fee crypto donations and public-goods funding campaigns.  
-  [![GitHub Stars](https://img.shields.io/github/stars/giveth/giveth-dapp?style=social&color=white)](https://github.com/giveth/giveth-dapp/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/giveth/giveth-dapp?style=social&color=white)](https://github.com/giveth/giveth-dapp/stargazers)
 
 - **[Donazy](https://github.com/kodingworks/donazy)** — Modern open-source donation management platform built on Laravel for campaign targets and contributor management.  
-  [![GitHub Stars](https://img.shields.io/github/stars/kodingworks/donazy?style=social&color=white)](https://github.com/kodingworks/donazy/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/kodingworks/donazy?style=social&color=white)](https://github.com/kodingworks/donazy/stargazers)
 
 - **[ImpressCMS](https://github.com/impresscms/impresscms)** — Open-source web content management system with community fundraising and donation add-ons.  
-  [![GitHub Stars](https://img.shields.io/github/stars/impresscms/impresscms?style=social&color=white)](https://github.com/impresscms/impresscms/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/impresscms/impresscms?style=social&color=white)](https://github.com/impresscms/impresscms/stargazers)
 
 - **[Happiness](https://github.com/heysanil/happiness)** — Lightweight open-source donation page builder built with Next.js, Stripe Checkout integration, and donor tracking.  
-  [![GitHub Stars](https://img.shields.io/github/stars/heysanil/happiness?style=social&color=white)](https://github.com/heysanil/happiness/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/heysanil/happiness?style=social&color=white)](https://github.com/heysanil/happiness/stargazers)
 
 - **[Giver](https://github.com/giverio/giver)** — Open-source responsive multi-organization fundraising platform prototype with rewards support and Stripe billing.  
-  [![GitHub Stars](https://img.shields.io/github/stars/giverio/giver?style=social&color=white)](https://github.com/giverio/giver/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/giverio/giver?style=social&color=white)](https://github.com/giverio/giver/stargazers)
 
 ---
 
@@ -117,7 +117,7 @@ Contributions are highly appreciated! To submit a new SaaS product or open-sourc
 
 1. Fork this repository 🍴
 2. Create your feature branch (`git checkout -b feature/add-new-platform`)
-3. Update `README.md` maintaining accurate metrics, star badges, and tabular structure
+3. Update `README.md` maintaining accurate metrics, Stars_Badges, and tabular structure
 4. Commit your changes (`git commit -m 'Add new fundraising platform'`)
 5. Push to your branch and open a Pull Request 🚀
 
