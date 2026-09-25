@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Animated Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes floatParticle1 {
+      0%, 100% { transform: translateY(0px) scale(1); opacity: 0.3; }
+      50% { transform: translateY(-18px) scale(1.15); opacity: 0.7; }
+    }
+    @keyframes floatParticle2 {
+      0%, 100% { transform: translateY(0px) scale(1); opacity: 0.4; }
+      50% { transform: translateY(22px) scale(1.1); opacity: 0.8; }
+    }
+    @keyframes pulseLine {
+      0%, 100% { stroke-dashoffset: 0; opacity: 0.4; }
+      50% { stroke-dashoffset: 60; opacity: 0.9; }
+    }
+    @keyframes barGrow {
+      0%, 100% { transform: scaleY(1); }
+      50% { transform: scaleY(1.25); }
+    }
+    
+    .p1 { animation: floatParticle1 6s ease-in-out infinite; }
+    .p2 { animation: floatParticle2 7s ease-in-out infinite; }
+    .p3 { animation: floatParticle1 8s ease-in-out infinite reverse; }
+    .pulse-path { stroke-dasharray: 12, 12; animation: pulseLine 4s linear infinite; }
+    .bar-anim1 { transform-origin: bottom; animation: barGrow 4s ease-in-out infinite; }
+    .bar-anim2 { transform-origin: bottom; animation: barGrow 5s ease-in-out infinite 1s; }
+    .bar-anim3 { transform-origin: bottom; animation: barGrow 3.5s ease-in-out infinite 0.5s; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Overlay -->
+  <path d="M0 60 H1200 M0 120 H1200 M0 180 H1200 M0 240 H1200 M0 300 H1200" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <path d="M200 0 V360 M400 0 V360 M600 0 V360 M800 0 V360 M1000 0 V360" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Dynamic Background Orbs & Flow Lines (Kept in Background) -->
+  <circle cx="150" cy="90" r="140" fill="#6366f1" opacity="0.15" filter="url(#glow)" class="p1"/>
+  <circle cx="1050" cy="270" r="160" fill="#ec4899" opacity="0.12" filter="url(#glow)" class="p2"/>
+  <circle cx="900" cy="80" r="100" fill="#10b981" opacity="0.1" filter="url(#glow)" class="p3"/>
+
+  <!-- Subtle Animated Flow Wave (Background decorative line) -->
+  <path d="M 50 300 Q 300 220 600 270 T 1150 180" fill="none" stroke="url(#primaryGlow)" stroke-width="2" opacity="0.4" class="pulse-path"/>
+
+  <!-- Background Dynamic Graphic Pill & Chart Elements (Positioned safely on right side) -->
+  <g transform="translate(850, 110)" opacity="0.45">
+    <!-- Mini Metric Glass Card -->
+    <rect x="0" y="0" width="280" height="140" rx="12" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5"/>
+    <text x="24" y="38" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="1">GLOBAL GIVING INDEX</text>
+    <text x="24" y="75" fill="#10b981" font-family="system-ui, sans-serif" font-size="30" font-weight="800">+$5.2B</text>
+    
+    <!-- Dynamic Animated Chart Bars -->
+    <rect x="180" y="85" width="14" height="35" rx="4" fill="#6366f1" class="bar-anim1"/>
+    <rect x="202" y="65" width="14" height="55" rx="4" fill="#a855f7" class="bar-anim2"/>
+    <rect x="224" y="45" width="14" height="75" rx="4" fill="#ec4899" class="bar-anim3"/>
+    <rect x="246" y="30" width="14" height="90" rx="4" fill="#10b981" class="bar-anim1"/>
+  </g>
+
+  <!-- MAIN FOREGROUND TEXT CONTENT (Prominent, crisp, unblocked) -->
+  <g transform="translate(70, 0)">
+    <!-- Top Category Pill Badge -->
+    <g transform="translate(0, 72)">
+      <rect x="0" y="0" width="280" height="34" rx="17" fill="url(#primaryGlow)" opacity="0.2"/>
+      <rect x="0" y="0" width="280" height="34" rx="17" fill="none" stroke="url(#primaryGlow)" stroke-width="1.5"/>
+      <text x="14" y="22" fill="#e2e8f0" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">🌟 CURATED NONPROFIT ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="160" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="900" letter-spacing="-0.5">
+      Awesome <tspan fill="url(#primaryGlow)">Fundraising</tspan> Platform
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="205" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400">
+      Top SaaS Products &amp; Open-Source Tools for Donations, Peer-to-Peer &amp; Giving
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 242)">
+      <!-- Tag 1 -->
+      <rect x="0" y="0" width="140" height="30" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="14" y="19" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="600">💳 Online Giving</text>
+
+      <!-- Tag 2 -->
+      <rect x="152" y="0" width="165" height="30" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="166" y="19" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="13" font-weight="600">🤝 Peer-to-Peer</text>
+
+      <!-- Tag 3 -->
+      <rect x="329" y="0" width="160" height="30" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="343" y="19" fill="#f472b6" font-family="system-ui, sans-serif" font-size="13" font-weight="600">⚡ Open Source CRM</text>
+
+      <!-- Tag 4 -->
+      <rect x="501" y="0" width="140" height="30" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="515" y="19" fill="#34d399" font-family="system-ui, sans-serif" font-size="13" font-weight="600">📈 Market Trends</text>
+    </g>
+  </g>
+</svg>
